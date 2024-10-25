@@ -146,6 +146,60 @@ export default function Home() {
               className="w-full"
             />
           </div>
+
+          {/* New Slider for Max Battery Power */}
+          <div>
+            <label htmlFor="maxBatteryPower" className="block text-sm font-medium">
+              Max effekt på batteri (kW): {formData.maxBatteryPower}
+            </label>
+            <input
+              type="range"
+              id="maxBatteryPower"
+              name="maxBatteryPower"
+              min="0"
+              max="20"
+              step="0.1"
+              value={formData.maxBatteryPower}
+              onChange={handleInputChange}
+              className="w-full"
+            />
+          </div>
+
+          {/* New Slider for Solar Panel Size */}
+          <div>
+            <label htmlFor="solarPanelSize" className="block text-sm font-medium">
+              Størrelse på solcelleanlegget (kW): {formData.solarPanelSize}
+            </label>
+            <input
+              type="range"
+              id="solarPanelSize"
+              name="solarPanelSize"
+              min="0"
+              max="20"
+              step="0.1"
+              value={formData.solarPanelSize}
+              onChange={handleInputChange}
+              className="w-full"
+            />
+          </div>
+
+          {/* New Slider for Average Consumption */}
+          <div>
+            <label htmlFor="averageConsumption" className="block text-sm font-medium">
+              Gjennomsnittlig forbruk (kWh): {formData.averageConsumption}
+            </label>
+            <input
+              type="range"
+              id="averageConsumption"
+              name="averageConsumption"
+              min="0"
+              max="100"
+              value={formData.averageConsumption}
+              onChange={handleInputChange}
+              className="w-full"
+            />
+          </div>
+          
           {/* Add similar slider inputs for other parameters */}
           <div>
             <label htmlFor="solarPanelDirection" className="block text-sm font-medium">
