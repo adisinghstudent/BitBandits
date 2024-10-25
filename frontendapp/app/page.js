@@ -54,22 +54,23 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4 sm:p-24 text-white">
       <div className="fixed inset-0 z-0 flex items-center justify-center">
-      <img className="object-cover w-3/4 h-auto" src="https://media.giphy.com/media/26BRKEDGBicmow252/giphy.gif"  alt="homegif" />
+      <img className="object-cover w-3/4 h-auto" src="https://media.giphy.com/media/loUqCMSfXHcsVb3cUZ/giphy.gif" alt="homegif" />
 </div>
 
+
       <div className="relative z-10 flex justify-center transform translate-y-8 sm:translate-y-32 h-screen">
-        <h1 className="text-6xl sm:text-[20rem] font-bold text-center text-white">
+        <h1 className="text-4xl sm:text-[15rem] font-bold text-center text-white">
           BitBandits
         </h1>
       </div>
 
       <div className="relative flex place-items-center z-10 mb-8 sm:mb-0">
-        <h1 className="text-3xl sm:text-6xl font-bold mb-10 text-center text-white">
+        <h1 className="text-3xl sm:text-6xl font-bold mb-4 text-center text-white">
           Optimalizer energien din
         </h1>
       </div>
 
-      <div className="relative flex place-items-center z-10 mb-8 sm:mb-0">
+      <div className="relative flex place-items-center z-10 mb-4 sm:mb-0">
         <Link href="/projects" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:bg-white/10 hover:border-white/20">
           <h2 className=" max-w-[30ch] text-sm opacity-70 mb-3 sm:text-5xl font-semibold">
             <div className="inline-block ">
