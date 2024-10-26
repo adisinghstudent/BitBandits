@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 
-from BitBandits.Case2.optimize_battery_schedule import optimize_battery_schedule
+from optimize_battery_schedule import optimize_battery_schedule
 
 def plot_result(spot_prices, load, pv_production, grid_power, soc):
     # Create time array for x-axis
